@@ -1,0 +1,52 @@
+body {
+  background: rgb(0, 99, 42);
+  background: radial-gradient(
+    circle,
+    rgba(0, 99, 42, 1) 0%,
+    rgba(9, 70, 1, 1) 96%
+  );
+
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.reverse {
+  border-radius: 10px;
+  cursor: pointer;
+  height: 20rem;
+  transition: all 0.3s linear;
+  margin-left: -12rem;
+}
+.face-up {
+  transition: all 1s linear;
+  margin-top: 25rem;
+  margin-left: -12rem;
+}
+.reverse:hover {
+  margin-top: 30px;
+}
+.sort {
+  margin-top: 2rem;
+  margin-left: -12.4rem;
+  transition: all 1s linear;
+}
+@media (max-width: 1700px) {
+  .reverse,
+  .sort,
+  .face-up {
+    width: 10rem !important;
+    height: auto;
+    margin-left: -8.8rem;
+  }
+  .face-up {
+    margin-top: 16rem;
+  }
+
+  .reverse:hover {
+    margin-top: 20px;
+  }
+}
