@@ -29,3 +29,6 @@ const CollectQueeen = {
 ### My portfolio 
 https://adrian-adducchio.netlify.app/
 
+![collect-queens](https://github.com/adrian947/collect-queens-game/assets/81486221/fa737a29-26c5-46bb-8d39-2706d361621b)
+
+
